@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
 :root {
     --color-light-50: #f8fafc;
 
@@ -21,18 +25,32 @@
     padding: 0;
 }
 
+#todolistfundo {
+
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    background-color: #13014b;
+    border-radius: 20px;
+}
+
 body {
-    font-family: ;
-    background-color: var(--color-blue-50);
+    font-family: 'Roboto Mono', monospace;
     color: var(--color-light-50);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    font-size: 10px;
 }
 
 body h1{
-   padding-top: 5rem;
+    font-family: font-family: 'Bebas Neue', sans-serif;
+   padding: 30px;
+   font-size: 50px;
+   text-align: center;
 }
 
 .content {
@@ -87,7 +105,7 @@ body h1{
 
 #to-do-list li{
     list-style-type: none;
-    font-size: 1.4rem;
+    font-size: 17px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
