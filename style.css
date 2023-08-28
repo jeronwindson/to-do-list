@@ -6,7 +6,7 @@
     --color-light-50: #f8fafc;
 
     --color-dark-50: #797984;
-    --color-dark-100: #312d37;
+    --color-dark-100: #4a0fa2;
     --color-dark-900: #000;
     --color-darkgreen-200: #04b040;
 
@@ -115,7 +115,7 @@ body h1{
 #to-do-list li:hover {
     background-color: var(--color-dark-100);
     transition: .4s;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding-left: 1rem;
 }
 
